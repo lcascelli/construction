@@ -1,8 +1,3 @@
-#Good start, but still broken. Breaks when selecting materials. I also want to be able to see materials \\\
-#as a dataframe with pricing and link so that selection is more intuitive. \\FIXED
-#FUNCTIONING AS OF 1/30/2015
-
-
 import pandas as pd
 import streamlit as st
 
