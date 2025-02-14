@@ -9,7 +9,7 @@ import streamlit as st
 # Loading data 
 @st.cache_data
 def load_data():
-    return pd.read_excel('C:/Users/Liam/Documents/00 Python/streamlit/construction_projects/Final_Search_Results.xlsx').sort_values(by='Price', ascending=True)
+    return pd.read_excel('Final_Search_Results.xlsx').sort_values(by='Price', ascending=True)
 
 material_data = load_data()
 
